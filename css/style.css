@@ -558,9 +558,21 @@ a:focus {
   font-weight: bold;
 }
 
+.Logo{
+  width: 70%;
+}
+
+.bandera{
+  margin-top: 8px;
+  width: 18%;
+}
+.bandera-us{
+  margin-top: 8px;
+  width: 30%;
+}
 .contact_section form .form-control {
   border: none;
-  background-color: #7a807d;
+  background-color: #e9e9e9;
   outline: none;
   -webkit-box-shadow: none;
           box-shadow: none;

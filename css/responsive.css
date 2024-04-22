@@ -32,6 +32,18 @@
     position: relative;
   }
 
+  .bandera{
+    margin-left: 45%;
+    width: 10%;
+  }
+  .bandera-us{
+    margin-left: 45%;
+    width: 10%;
+  }
+  .Logo{
+    display: none;
+  }
+
   .slider_img-box::before {
     background-image: url(../images/hero-bg-mobile.png);
     width: 100%;
