@@ -380,9 +380,9 @@ a:focus {
 
 .service_section a {
   display: inline-block;
-  padding: 12px 40px;
-  background-color: #19f1a9;
-  color: #1af8ae;
+  padding: 0px 0px;
+  background-color: #cfcfcf;
+  color: #c7c7c7;
   border-radius: 25px;
   -webkit-box-shadow: 0px 2px 7px 0px rgba(32, 50, 117, 0.26);
   box-shadow: 0px 2px 7px 0px rgba(32, 50, 117, 0.26);
@@ -665,7 +665,7 @@ a:focus {
 }
 
 .info_section .social-box {
-  margin: 25px 0;
+  margin-top: 100px;
 }
 
 .info_section .social-box img {

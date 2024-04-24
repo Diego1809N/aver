@@ -117,6 +117,9 @@
   .slider_img-box {
     position: relative;
   }
+  .layout_padding{
+    padding-bottom: 40%;
+  }
 
   .slider_img-box::before {
     background-image: url(../images/hero-bg-mobile.png);
