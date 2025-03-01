@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gracias por tu mensaje | Innovar</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+    <link rel="icon" type="image/png" href="assets/Fav.png">
+    <style>
+        :root {
+            --background-color: #ffffff;
+            --primary-color: #222b52;
+            --primary-color-dark: #1a2140;
+            --text-color: #333333;
+        }
+
+        .thank-you-container {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 2rem;
+            background-color: var(--background-color);
+        }
+
+        .thank-you-logo {
+            margin-bottom: 2rem;
+        }
+
+        .thank-you-logo img {
+            max-width: 200px;
+            height: auto;
+        }
+
+        .thank-you-content {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .thank-you-content h1 {
+            color: var(--primary-color);
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .thank-you-content p {
+            color: var(--text-color);
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+
+        .return-button {
+            display: inline-block;
+            padding: 1.2rem 2.5rem;
+            background-color: var(--primary-color);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .return-button:hover {
+            background-color: var(--primary-color-dark);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+        }
+    </style>
+</head>
+<body>
+    <div class="thank-you-container">
+        <div class="thank-you-logo" data-aos="fade-down">
+            <img src="assets/logo.png" alt="Logo Innovar">
+        </div>
+        <div class="thank-you-content">
+            <h1 data-aos="fade-up">¡Gracias por tu mensaje!</h1>
+            <p data-aos="fade-up" data-aos-delay="200">Hemos recibido tu mensaje correctamente. Nos pondremos en contacto contigo lo antes posible.</p>
+            <a href="https://innovarsoftar.netlify.app/" class="return-button" data-aos="fade-up" data-aos-delay="400">Volver al inicio</a>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true
+        });
+    </script>
+</body>
+</html>
